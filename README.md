@@ -19,8 +19,8 @@ This project implements a Todo List API using FastAPI, allowing you to manage ta
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username/your_project.git
-   cd your_project
+   git clone https://github.com/jeetendra29gupta/my_todo_list.git
+   cd my_todo_list
 	```
 
 2. Set up virtual environment (optional but recommended)
@@ -36,6 +36,7 @@ This project implements a Todo List API using FastAPI, allowing you to manage ta
 
 4. Running the API
 	```sh
+ 	cd back-end
 	uvicorn main:app --reload --host 0.0.0.0 --port 8181
 	```
 
